@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "lib": ["deno.window"]
+  },
+  "tasks": {
+    "dev": "deno run --watch --allow-net --allow-env src/index.ts"
+  }
+}
